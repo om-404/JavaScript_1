@@ -1,11 +1,11 @@
-let score = "hitesh"
+let score = "hitesh"  // try with null, undefined, integer, true, false etc.
 
 //console.log(typeof score);
 //console.log(typeof(score));
 
-let valueInNumber = Number(score)
+let valueInNumber = Number(score)  // it will convert into number but output is NaN
 //console.log(typeof valueInNumber);
-//console.log(valueInNumber);
+//console.log(valueInNumber);   // NaN - not a number 
 
 
 // "33" => 33
@@ -43,13 +43,14 @@ let negValue = -value
 let str1 = "hello"
 let str2 = " hitesh"
 
-let str3 = str1 + str2
+let str3 = str1 + str2   // using this we can join string
 // console.log(str3);
 
 // console.log("1" + 2);
 // console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// console.log("1" + 2 + 2); if string is first all are treated as string
+// console.log(1 + 2 + "2"); if integer is first all are treated as integer
+// avoid uch practices and use brackets
 
 // console.log( (3 + 4) * 5 % 3);
 
@@ -63,6 +64,7 @@ num1 = num2 = num3 = 2 + 2
 let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
+// check about the prefix and post in documentation of mdn
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
