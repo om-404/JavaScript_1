@@ -1,3 +1,4 @@
+// string is object 
 const name = "hitesh"
 const repoCount = 50
 
