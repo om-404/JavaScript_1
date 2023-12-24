@@ -1,5 +1,6 @@
-// singleton
-// Object.create
+// objects declare in two way first is constructor and second is literal
+// singleton -- when it made from constructor not from literal
+// Object.create  -- object is created using constructor method
 
 // object literals
 
