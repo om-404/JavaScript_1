@@ -1,5 +1,5 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object()  ---> this is singleton object 
+const tinderUser = {}   // ----> this is non single ton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -29,7 +29,7 @@ const obj4 = {5: "a", 6: "b"}
 const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
 
-
+// object inside array
 const users = [
     {
         id: 1,
@@ -48,8 +48,8 @@ const users = [
 users[1].email
 // console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser)); ---> .keys use keke hum object ki key pta kr sakte hai
+// console.log(Object.values(tinderUser)); ---> yaha pr values pata lr sakte hai
 // console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
